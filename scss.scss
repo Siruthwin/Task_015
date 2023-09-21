@@ -1,0 +1,32 @@
+.flat-classic-theme{
+    // fonts 
+    $font-1:"'Roboto'";
+
+    $shade-0:rgb(255, 255, 255);
+    $shade-1:rgb(250, 250, 250);
+    $shade-2:rgb(236, 236, 236);
+    $shade-3:rgb(126, 126, 126);
+    $shade-4:rgb(85, 85, 85);
+    $shade-5:rgb(66, 66, 66);
+
+    background:$shade-0;
+
+    * {
+        color: $shade-5;
+        font-family: $font-1;
+    }    
+
+    input {
+        color:$shade-3;
+        background:$shade-1;
+    }
+
+    .active {
+        border: 3px solid $shade-5;
+    }
+
+    .top-bar , .bottom{
+        background: $shade-2;
+    }
+
+}

@@ -1,0 +1,189 @@
+.table-root {
+    .table-root {
+        width: 780px;
+        margin: 0px auto;
+        border: 1px solid rgb(192, 192, 192);
+        font-family: sans-serif;
+    }
+    
+    .table-root svg {
+        height: 18px;
+        width: 18px;
+        padding: 3px;
+        cursor: pointer;
+    }
+    
+    .round {
+        border-radius: 3px;
+    }
+    
+    .base_color {
+        color: rgb(85, 85, 85);
+    }
+    
+    .pagination svg{
+        height: 15px;
+        width: 15px;
+        padding: 0;
+    }
+    
+    .table-template input {
+        font-size: inherit;
+        background: inherit;
+        padding: 5px 8px;
+        display: block;
+    }
+    
+    .table-template svg {
+        display: block;
+        padding: 0;
+    }
+    
+    .light-text {
+        color: rgb(148, 148, 148);
+    }
+    
+    .buttons > .btn{
+        border: 1px solid rgb(192, 192, 192);
+        padding: 3px 5px;
+        cursor: pointer;
+        margin: 10px 2px;
+        border-radius: 3px;
+        font-size: 0.9em;
+    }
+    
+    .buttons {
+        margin: 0px 10px;
+        align-items: center;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+    
+    .search-box > * {
+        padding: 5px 8px !important;
+        outline: none !important;
+        border:none !important;
+        margin: 0px !important;
+        background: inherit !important;
+        color: inherit !important;    
+        font-family: monospace;
+    }
+    
+    .search-box {
+        border: 1px solid rgb(126, 126, 126);
+        border-radius: 3px;
+    }
+    
+    .search-box:hover .btn{
+        opacity: 1;
+    }
+    
+    .invisible {
+        opacity: 0;
+    }
+    
+    .top_spacing {
+        padding: 8px 10px;
+        margin: 8px 8px;
+    }
+    
+    .table-template {
+        display: block;
+        width: 100%;
+        height: auto; 
+        /* overflow-y: auto; */
+        text-align: left;
+        padding:2px 0px;
+        font-family: sans-serif;
+        position: relative;
+    }
+    
+    .table-template tbody{
+        width: 100%;
+        display: inline-table;
+    }
+    
+    .table-template tr {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    
+    .table-template img {
+        width: 25px;
+        border-radius: 100px;
+        box-shadow: 1px 1px 3px 0px black;
+    }
+    
+    .table-template tr > th , .table-template tr > td {
+        padding: 10px 15px;
+    }
+    
+    .table-template tr:nth-child(1){
+        font-weight: bold;
+    }
+    
+    .p1 {
+        padding: 3px 8px;
+    }
+    
+    .p2 {
+        padding: 6px 16px;
+    }
+    
+    .m1 {
+        margin: 3px 8px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .ml-auto {
+        margin-left:auto;
+    }
+    
+    .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .my-auto {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .small-text {
+        font-size: 13px;
+    }
+    
+    .py1 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .py2 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .pb {
+        padding-bottom: 10px;
+    }
+    
+    .mr-auto {
+        margin-right: auto;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    
+    .editing-buttons .btn {
+        padding: 2px;
+        margin-left: 2px;
+    }
+    
+    
+}

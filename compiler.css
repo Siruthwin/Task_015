@@ -1,0 +1,314 @@
+.table-root {
+  width: 780px;
+  margin: 0px auto;
+  border: 1px solid silver;
+  font-family: sans-serif;
+}
+
+.table-root svg {
+  height: 18px;
+  width: 18px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.table-root .round {
+  border-radius: 3px;
+}
+
+.table-root .base_color {
+  color: #555555;
+}
+
+.table-root .pagination svg {
+  height: 15px;
+  width: 15px;
+  padding: 0;
+}
+
+.table-root .table-template input {
+  font-size: inherit;
+  background: inherit;
+  padding: 5px 8px;
+  display: block;
+}
+
+.table-root .table-template svg {
+  display: block;
+  padding: 0;
+}
+
+.table-root .light-text {
+  color: #949494;
+}
+
+.table-root .buttons > .btn {
+  border: 1px solid silver;
+  padding: 3px 5px;
+  cursor: pointer;
+  margin: 10px 2px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.table-root .buttons {
+  margin: 0px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+}
+
+.table-root .search-box > * {
+  padding: 5px 8px !important;
+  outline: none !important;
+  border: none !important;
+  margin: 0px !important;
+  background: inherit !important;
+  color: inherit !important;
+}
+
+.table-root .clearSearchBtn {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.table-root .search-box {
+  border: 1px solid #7e7e7e;
+  border-radius: 3px;
+}
+
+.table-root .search-box:hover .btn {
+  opacity: 1;
+}
+
+.table-root .invisible {
+  opacity: 0;
+}
+
+.table-root .top_spacing {
+  padding: 8px 10px;
+  margin: 8px 8px;
+}
+
+.table-root .table-template {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* overflow-y: auto; */
+  text-align: left;
+  padding: 2px 0px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.table-root .table-template tbody {
+  width: 100%;
+  display: inline-table;
+}
+
+.table-root .table-template tr {
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.table-root .table-template img {
+  width: 25px;
+  border-radius: 100px;
+  -webkit-box-shadow: 1px 1px 3px 0px black;
+          box-shadow: 1px 1px 3px 0px black;
+}
+
+.table-root .table-template tr > th, .table-root .table-template tr > td {
+  padding: 10px 15px;
+}
+
+.table-root .table-template tr:nth-child(1) {
+  font-weight: bold;
+}
+
+.table-root .p1 {
+  padding: 3px 8px;
+}
+
+.table-root .p2 {
+  padding: 6px 16px;
+}
+
+.table-root .m1 {
+  margin: 3px 8px;
+}
+
+.table-root .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.table-root .ml-auto {
+  margin-left: auto;
+}
+
+.table-root .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-root .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.table-root .small-text {
+  font-size: 13px;
+}
+
+.table-root .py1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.table-root .py2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.table-root .pb {
+  padding-bottom: 10px;
+}
+
+.table-root .mr-auto {
+  margin-right: auto;
+}
+
+.table-root .hide {
+  display: none;
+}
+
+.table-root .editing-buttons .btn {
+  padding: 2px;
+  margin-left: 2px;
+}
+
+
+
+/* themes */
+
+/* dark theme */
+.dark-theme {
+    background: #555555;
+}
+  
+.dark-theme * {
+    color: #f0f0f0;
+    font-family: "font-family: 'Quicksand', sans-serif";
+}
+
+.dark-theme tr:nth-child(even) {
+    background: #7e7e7e;
+}
+
+.dark-theme .search-box , .dark-theme input{
+    color: #555555;
+    background: #ececec;
+}
+
+.dark-theme .light-text {
+    color: #ececec;
+}
+
+.dark-theme .active {
+    border: 3px solid #f0f0f0;
+}
+
+/* classic theme */
+
+.classic-theme {
+  background: white;
+}
+
+.classic-theme * {
+  color: #424242;
+  font-family: "font-family: 'Quicksand', sans-serif";
+}
+
+.classic-theme tr:nth-child(even) {
+  background: #ececec;
+}
+
+.classic-theme .search-box , .classic-theme input{
+  color: #555555;
+  background: white;
+}
+
+.classic-theme .active {
+  border: 3px solid #424242;
+}
+
+/* flat classic theme  */
+.flat-classic-theme {
+  background: white;
+}
+
+.flat-classic-theme * {
+  color: #424242;
+  font-family: "font-family: 'Quicksand', sans-serif";
+}
+
+.flat-classic-theme .search-box , .flat-classic-theme input{
+  color: #7e7e7e;
+  background: #ececec;
+}
+
+.flat-classic-theme .active {
+  border: 3px solid #424242;
+}
+
+.flat-classic-theme .top-bar, .flat-classic-theme .bottom {
+  background: #ececec;
+}
+
+/* flat dark theme */
+
+.flat-dark-theme {
+  background: #555555;
+}
+
+.flat-dark-theme * {
+  color: white;
+  font-family: "font-family: 'Quicksand', sans-serif";
+}
+
+.flat-dark-theme .search-box , .flat-dark-theme input{
+  color: #7e7e7e;
+  background: #fafafa;
+}
+
+.flat-dark-theme .light-text {
+    color: #ececec;
+}
+
+.flat-dark-theme td {
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.flat-dark-theme .active {
+  box-shadow: 0px 0px 1px 2px white;
+}
+
+.flat-dark-theme .table-template{
+  border-top: 1px solid #fafafa;
+}
+
+.flat-dark-theme .top-bar, .flat-dark-theme .bottom {
+  background: #555555;
+}
+
+
+/*# sourceMappingURL=compiler.css.map */
